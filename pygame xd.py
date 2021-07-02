@@ -1,5 +1,4 @@
 import pygame
-import os
 class player:
     def __init__(self, image, width, height):
         self.image = image
@@ -25,7 +24,7 @@ if __name__ == '__main__':
     pygame.init()
 
     screen = pygame.display.set_mode((700, 700))
-    wpic = pygame.image.load("01d.png",100)
+    wpic = pygame.image.load("pug.png",100)
 
     white = (255, 255, 255)
 
