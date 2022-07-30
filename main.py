@@ -3,7 +3,7 @@ import requests
 # Request variables
 lang = 'en'
 city = 'donramiro'
-appid = '3fcef97161f2ee10c05746de56fb066b'
+appid = 'OPENWEATHERMAP_KEY'
 
 wth = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+ city +'&units=metric&lang='+ lang +'&appid='+ appid).text
 response = json.loads(wth)
