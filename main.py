@@ -9,6 +9,7 @@ wth = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+ city +'&
 response = json.loads(wth)
 print(response)
 print(response['weather'][0]['id'])
+print(LOL)
 # print(main['temp'])
 # print(main['feels_like'])
 # print(main['temp'])
